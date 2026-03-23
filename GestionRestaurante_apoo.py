@@ -12,12 +12,5 @@ class Plato:
         self.stock += cantidad
 
 class Menu:
-    def __init__(self)->None:
-        self.platos = []
-
-    def agregar_plato(self,plato)->None:
-        self.platos.append(plato)
-
-    def eliminar_plato(self,id_plato:int)->None:
-        self.platos =[p for p in self.platos if p.id != id_plato]
-
+    def __init__(self)-> None:
+        self.platos =[]
