@@ -10,3 +10,10 @@ class Plato:
 
     def actualizar_stock(self, cantidad: int) -> None:
         self.stock += cantidad
+
+class Menu:
+    def __init__(self)->None:
+        self.platos = []
+
+    def agregar_plato(self,plato)->None:
+        self.platos.append(plato)
